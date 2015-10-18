@@ -1,6 +1,6 @@
 {
   "name": "polyparams",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Change your parameters position and/or their default value",
   "main": "index.js",
   "scripts": {
