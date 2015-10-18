@@ -17,4 +17,4 @@ module.exports = (...types, f) ->
           | not argIdx? and it.default?     => it.default
           | _                               => throw new Error "No arguments of type: #{it.type}"
 
-    f.apply null, resArgs
+    f.apply @, resArgs
