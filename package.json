@@ -1,0 +1,26 @@
+{
+  "name": "polyparams",
+  "version": "0.0.1",
+  "description": "Change your parameters position and/or their default value",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Champii/PolyParams.git"
+  },
+  "keywords": [
+    "parameters",
+    "polymorphism"
+  ],
+  "author": "Champii",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/Champii/PolyParams/issues"
+  },
+  "homepage": "https://github.com/Champii/PolyParams#readme",
+  "dependencies": {
+    "prelude-ls": "^1.1.2"
+  }
+}
