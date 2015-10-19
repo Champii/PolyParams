@@ -1,6 +1,6 @@
 {
   "name": "polyparams",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Change your parameters position and/or their default value",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Champii/PolyParams#readme",
   "dependencies": {
+    "livescript": "^1.4.0",
     "prelude-ls": "^1.1.2"
   }
 }

@@ -1,1 +1,2 @@
-module.exports = require('./PolyParams.js')
+var livescript = require('livescript')
+module.exports = require('./PolyParams.ls')

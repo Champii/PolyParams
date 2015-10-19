@@ -5,8 +5,8 @@ module.exports = (...types, f) ->
     | is-type \String it => type: it
     | is-type \Object it => {type: first keys it} <<< first values it
 
+  # thus = @
   (...args) ->
-    defaults = []
     resArgs = types
       |> map ->
         argIdx = args |> find-index (arg) -> typeof! arg is it.type
