@@ -1,6 +1,7 @@
-global import require \prelude-ls
+{first, keys, values, find-index, map, is-type} = require \prelude-ls
 
 module.exports = (...types, f) ->
+
   types = types |> map ->
     | is-type \String it => type: it
     | is-type \Object it => {type: first keys it} <<< first values it
